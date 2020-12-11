@@ -19,7 +19,11 @@ colorePreferito = prompt('E il tuo colore preferito?');
 // stampo tutto sull'html
 // document.getElementById('psw').innerHTML = nome + cognome + colorePreferito + 19;
 
-// mi accerto che le cose inserite dall'utente siano tutte minuscole e ristampo in html
+// dichiaro altre variabili e mi accerto che le cose inserite dall'utente siano tutte minuscole e ristampo in html
+var nomeMinuscolo;
+var cognomeMinuscolo;
+var colorePreferitoMinuscolo;
+
 nomeMinuscolo = nome.toLowerCase();
 cognomeMinuscolo = cognome.toLowerCase();
 colorePreferitoMinuscolo = colorePreferito.toLowerCase();
