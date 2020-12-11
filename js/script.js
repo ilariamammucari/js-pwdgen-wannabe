@@ -16,4 +16,13 @@ colorePreferito = prompt('E il tuo colore preferito?');
 // verifico se funziona nella console
 // console.log(nome,cognome,colorePreferito);
 
-document.getElementById('generatore-psw').innerHTML = nomeMaiuscolo + cognome + colorePreferito + 19;
+// stampo tutto sull'html
+document.getElementById('generatore-psw').innerHTML = nome + cognome + colorePreferito + 19;
+
+// mi accerto che le cose inserite dall'utente siano tutte minuscole e ristampo in html
+nomeMinuscolo = nome.toLowerCase();
+cognomeMinuscolo = cognome.toLowerCase();
+colorePreferitoMinuscolo = colorePreferito.toLowerCase();
+
+
+document.getElementById('generatore-psw').innerHTML = nomeMinuscolo + cognomeMinuscolo + colorePreferitoMinuscolo + 19;
